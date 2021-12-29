@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.wrapper{
+    /* background: rgb(0,0,0,0.6); */
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background-image: url(laptop.png);
+    height: 100vh; 
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    /* box-sizing: border-box; */
+
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    /* background: lightgrey; */
+}
+.nav-area li{
+    display: inline-block;
+    /* display: inline-flex; */
+    /* box-sizing: border-box; */
+    /* background-color: lightgrey; */
+}
+.nav-area li a{
+    color: rgb(26, 22, 22);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:poppins;
+    font-size: 16px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text{
+    text-align: left;
+    color:rgb(26, 22, 22);
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.welcome-text a{ 
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(26, 22, 22);
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+.sub-menu-1{
+    display: none;
+    /* color: white; */
+}
+.nav-area li:hover .sub-menu-1{
+    display: block;
+    background: lightslategray;
+    color: black;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid #fff; */
+    /* border-bottom: 1px dotted #fff; */
+    /* padding: 10px 25px; */
+}
+.nav-area li:hover .sub-menu-1 li{
+    display: block;
+    margin: 10px;
+    /* color: white; */
+}
+.nav-area li:hover .sub-menu-1 li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+} 
+.nav-area .fas{
+    margin-right: 8px;
+}
+.welcome-text .fas{
+    margin-right: 8px;
+}
+/* .sub-menu-1 li a{
+    color: black;
+} */
+.fas angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 150px;
+    background: lightslategray;
+}
